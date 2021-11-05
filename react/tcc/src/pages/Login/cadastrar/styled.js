@@ -38,6 +38,10 @@ flex-direction: column;
     margin-top: 0.9em;
 }
 
+.titulo {
+    font-family: Lobster;
+}
+
 .senha {
     font-family: Gabriela;
     display: flex;
@@ -66,7 +70,7 @@ flex-direction: column;
 }
 
 .caixa3-inputs {
-    font-family: Gabriela;
+    font-family: Lobster;
 
     display: flex;
     justify-content: space-between;
@@ -82,7 +86,7 @@ flex-direction: column;
     font-size: 35px;
     line-height: 62px;
     
-     color: #000000;
+    color: #000000;
 }
 
 input {
@@ -103,13 +107,15 @@ input {
 select {
     text-align: center;
     width: 12em;
-    
 }
 
 
 .Botaomae {
     display: flex;
     flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.9em;
 }
 
 button {
@@ -121,12 +127,14 @@ button {
     margin-top: 3em;
 }
 
+
+
 .botão1 > button {
     background-color:#FF4949;
     opacity: 0.75;
     border-radius: 30px;
     text-align: center;
-  
+    font-family: Lobster;
 }
 
 .botão > button {
@@ -134,14 +142,21 @@ button {
     opacity: 0.75;
     border-radius: 30px;
     position: absolute;
-
 }
+
+
+
+.Botaomae {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cancelar {
+    font-family: Lobster;
+}
+
 
 
 `
 
 export {ConteinerCadastrar}
-
-
-
-
